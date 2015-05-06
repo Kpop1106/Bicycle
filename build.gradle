@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.7				//JDK version
+sourceSets.main.java.srcDir 'src'		//Java Source code directory
+compileJava.options.encoding = 'UTF-8'
+
+repositories {  
+    mavenCentral()
+}
+dependencies {
+	compile 'org.hibernate:hibernate-entitymanager:4.3.8.Final'
+//	compile 'org.springframework:spring-jdbc:4.1.6.RELEASE'
+//	compile 'org.springframework:spring-context:4.1.6.RELEASE'
+//	compile 'org.springframework:spring-orm:4.1.6.RELEASE'
+	compile 'jstl:jstl:1.2'
+	compile 'org.apache.struts:struts2-core:2.3.20'
+//	compile 'org.apache.struts:struts2-spring-plugin:2.3.20'
+	}

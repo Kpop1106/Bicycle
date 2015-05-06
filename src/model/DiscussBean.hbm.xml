@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015/5/4 ?U?? 09:12:24 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="model.DiscussBean" table="discuss">
+        <id name="user_no" type="int">
+            <column name="USER_NO" />
+            <generator class="identity" />
+        </id>
+        <property name="discuss_time" type="java.util.Date">
+            <column name="DISCUSS_TIME" />
+        </property>
+        <property name="discuss_title" type="java.lang.String">
+            <column name="DISCUSS_TITLE" />
+        </property>
+        <property name="discuss_content" type="java.lang.String">
+            <column name="DISCUSS_CONTENT" />
+        </property>
+        <property name="discuss_kind" type="java.lang.String">
+            <column name="DISCUSS_KIND" />
+        </property>
+    </class>
+</hibernate-mapping>
+
