@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 /build
 /.classpath
 /.settings
+=======
+/.classpath
+/.project
+/.settings
+/build
+>>>>>>> 608d6756ce10a7670459b1f593cb5a339efb3ba1
